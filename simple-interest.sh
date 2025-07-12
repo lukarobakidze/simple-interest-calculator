@@ -15,7 +15,7 @@ show_usage() {
     echo "  time       - The time period in years (required)"
     echo ""
     echo "Example: $0 1000 5 2"
-    echo "This will calculate simple interest for $1000 at 5% for 2 years"
+    echo "This will calculate simple interest for \$1000 at 5% for 2 years"
 }
 
 # Function to validate numeric input
@@ -41,12 +41,12 @@ calculate_simple_interest() {
     
     echo "Simple Interest Calculation Results:"
     echo "=================================="
-    echo "Principal Amount: $${principal}"
+    echo "Principal Amount: \$${principal}"
     echo "Interest Rate: ${rate}%"
     echo "Time Period: ${time} years"
     echo "----------------------------------"
-    echo "Simple Interest: $${interest}"
-    echo "Total Amount: $${total}"
+    echo "Simple Interest: \$${interest}"
+    echo "Total Amount: \$${total}"
     echo "=================================="
 }
 
